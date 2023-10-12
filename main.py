@@ -17,7 +17,8 @@ else:
 while True:
     try:
         number=int(input("Enter a number: "))
-        break
+        if number>=1:
+            break
     except ValueError:
         print("You didn't enter a valid number")
 
