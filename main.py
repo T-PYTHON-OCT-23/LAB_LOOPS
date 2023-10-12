@@ -14,8 +14,13 @@ while not ans:
 else:
     print("Good job")
 
+while True:
+    try:
+        number=int(input("Enter a number: "))
+        break
+    except ValueError:
+        print("You didn't enter a valid number")
 
-number=int(input("Enter a number: "))
 sum=0
 for n in range(2,number+1,2):
     sum+=n
