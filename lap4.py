@@ -1,11 +1,10 @@
 
 for number in range(45,210):
-    print(number)
     if number == 100 :
         continue
     elif number== 205 :
         break
-
+    print(number)
 
 Mathimatical_Qustion = "what is the product of 7 * 24 ?"
 trials = 3
