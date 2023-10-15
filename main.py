@@ -3,6 +3,7 @@ for n in range(45,210):
         continue
     if n==205:
         break
+    print(n)
 
 ans=False
 while not ans:
