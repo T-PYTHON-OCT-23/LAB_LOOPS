@@ -7,10 +7,10 @@ for n in range(45 ,210):
 
 print("_"*20)
 
-mltuNum= input("what is the product of 7 * 24 ?")
 
-while int(mltuNum)!=168:
-    print("Your Answer is wrong try again..") 
-    print(input("what is the product of 7 * 24 ?"))
+
+while int(input("what is the product of 7 * 24 ?"))!=168:
+    print("Your Answer is wrong try again..")
 else:
-    print("You answered this Question correctly")  
+    print("You answered this Question correctly")
+    
