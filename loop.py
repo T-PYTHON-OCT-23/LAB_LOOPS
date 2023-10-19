@@ -10,13 +10,10 @@ for r in iterate:
 
 #(2)using while loop
 Question = "Find the result of multiplying 7 by 4"
-trials = 10 
+answer = 28
 
-while input(Question) != 28: 
-    trials -= 1
-    if trials <= 0: 
-        print("You used all your tries! the answer is 28.")
+while input(Question) != "answer":
+        print("That's wrong Try again..")
         break
-    print(f"That's wrong Try again.. {trials} left ")
 else:
     print("Great! You answered this Question correctly")
