@@ -14,6 +14,5 @@ answer = 28
 
 while input(Question) != "answer":
         print("That's wrong Try again..")
-        break
 else:
     print("Great! You answered this Question correctly")
