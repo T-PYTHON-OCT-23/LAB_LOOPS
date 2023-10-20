@@ -12,7 +12,7 @@ for r in iterate:
 Question = "Find the result of multiplying 7 by 4"
 trials = 10 
 
-while input(Question) != 28: 
+while input(Question) != str(28): 
     trials -= 1
     if trials <= 0: 
         print("You used all your tries! the answer is 28.")
